@@ -2,7 +2,7 @@
 
 A fast, secure, and user-friendly PHP image host with instant uploads, NSFW detection, and robust metadata stripping. Designed for BDIX/CDN deployment, with strong access controls and daily cleanup automation.
 
-Currently hosted at: [https](https://timepass.fpureit.top/) 
+Currently hosted at: [imgBD LIVE WEBSITE](https://timepass.fpureit.top/) 
 
 
 
