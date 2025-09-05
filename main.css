@@ -1,0 +1,39 @@
+/* Theme variables */
+:root {
+	--bg: #ffffff;
+	--text: #111111;
+	--card-bg: #ffffff;
+	--border: #e5e7eb;
+}
+html[data-theme='dark'] {
+	--bg: #0f1115;
+	--text: #e5e7eb;
+	--card-bg: #111827;
+	--border: #374151;
+}
+
+/* Base */
+body { background-color: var(--bg); color: var(--text); }
+/* Light background pattern */
+body { background-image: url('/bg.png'); background-repeat: repeat; background-size: 160px 160px; }
+/* Dark background pattern */
+html[data-theme='dark'] body { background-image: url('/dark-bg.png'); background-repeat: repeat; background-size: 160px 160px; }
+
+/* Components */
+.navbar, .footer, .card, .bg-white, .bg-light { background-color: var(--card-bg) !important; color: var(--text) !important; }
+.border, .border-bottom, .border-top, .navbar, .footer { border-color: var(--border) !important; }
+.navbar a, .navbar-brand { color: var(--text) !important; }
+.footer a { color: var(--text) !important; }
+.footer a:hover { opacity: .9; }
+
+/* Bootstrap text utilities adapt */
+.text-dark { color: var(--text) !important; }
+html[data-theme='dark'] .text-muted, html[data-theme='dark'] .text-secondary { color: #9ca3af !important; }
+/* Helper text in forms */
+.form-text { color: #6b7280; }
+html[data-theme='dark'] .form-text { color: #9ca3af; }
+
+/* Toggle button */
+.btn-toggle-theme { border-color: var(--border) !important; color: var(--text) !important; }
+.btn-toggle-theme:hover { background-color: rgba(127,127,127,.1); }
+

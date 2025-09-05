@@ -1,0 +1,6 @@
+.htaccess
+*.log
+*.tmp
+.DS_Store
+uploads/
+nsfw/photo/
